@@ -8,7 +8,6 @@ use yii\web\AssetBundle;
 class PNotifyAssets extends AssetBundle {
 
     public $sourcePath = '@vendor/xj/yii2-pnotify-widget/assets';
-    public $basePath = '@webroot/assets';
     public $js = ['pnotify.custom.min.js'];
     public $css = ['pnotify.custom.min.css'];
     public $depends = ['yii\web\JqueryAsset'];
